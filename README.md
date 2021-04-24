@@ -7,6 +7,7 @@ They will be/got merged, once cleaned, closed and finalized.
 
 ## Closed:
 - logging utils
+- FMNIST WANDB: weightsandbiases minimal case to reproduce later. #tf2
 
 ## Active:
 - data utils 
