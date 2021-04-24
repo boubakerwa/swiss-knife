@@ -12,6 +12,9 @@ from typing import Tuple
 # tf
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 
+# config
+import json
+
 class Data_Utils():
     '''
     python object for io of all types of data.
@@ -115,4 +118,9 @@ class Data_Utils():
                                                     batch_size=batch_size,
                                                     class_mode=class_mode,
                                                     target_size=target_size)
+            
+    def read_tf_config(self, path):
+        with open(path, 'r') as fp:
+            conf = json.load(fp)
+        return conf
         
