@@ -10,8 +10,8 @@ They will be/got merged, once cleaned, closed and finalized.
 - FMNIST WANDB: weightsandbiases minimal case to reproduce later. #tf2
 
 ## Active:
-- data utils 
+- data utils
+- tensorflow sequential models 
 
 ## Plans:
-- tensorflow sequential models
 - data viz.
